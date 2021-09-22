@@ -1,0 +1,11 @@
+# Actuator
+management.endpoints.web.exposure.include: "conditions, beans, configprops, env, loggers, metrics, mappings"
+
+## Health: Show details
+management.endpoint.health.show-details: "always"
+
+##Beautify JSON
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
