@@ -1,5 +1,5 @@
 # Actuator
-management.endpoints.web.exposure.include: "conditions, beans, configprops, env, loggers, metrics, mappings"
+management.endpoints.web.exposure.include: "conditions, beans, configprops, env, loggers, metrics, mappings, prometheus"
 
 ## Health: Show details
 management.endpoint.health.show-details: "always"
